@@ -1,4 +1,3 @@
-"use strict";
 console.log("✅ script loaded");
 const expenseName = document.querySelector("#expenseName");
 const costSpend = document.querySelector("#costSpend");
@@ -60,4 +59,5 @@ expenseForm.addEventListener("submit", (e) => {
     costSpend.value = "";
 });
 loadLocalStorage();
+export {};
 //# sourceMappingURL=index.js.map
